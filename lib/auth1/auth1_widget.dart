@@ -304,7 +304,7 @@ class _Auth1WidgetState extends State<Auth1Widget>
                                                                 }
 
                                                                 context.goNamedAuth(
-                                                                    'null',
+                                                                    'HomePage',
                                                                     context
                                                                         .mounted);
                                                               },
@@ -392,7 +392,7 @@ class _Auth1WidgetState extends State<Auth1Widget>
                                                                       }
 
                                                                       context.goNamedAuth(
-                                                                          'null',
+                                                                          'HomePage',
                                                                           context
                                                                               .mounted);
                                                                     },
@@ -537,7 +537,7 @@ class _Auth1WidgetState extends State<Auth1Widget>
                                                                 }
 
                                                                 context.goNamedAuth(
-                                                                    'null',
+                                                                    'HomePage',
                                                                     context
                                                                         .mounted);
                                                               },
@@ -625,7 +625,7 @@ class _Auth1WidgetState extends State<Auth1Widget>
                                                                       }
 
                                                                       context.goNamedAuth(
-                                                                          'null',
+                                                                          'HomePage',
                                                                           context
                                                                               .mounted);
                                                                     },

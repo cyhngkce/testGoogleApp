@@ -12,7 +12,20 @@
           "package_name": "com.mycompany.testgoogleorapplelogin"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1002575927137-2c8i8tqrc6moprgp3hdrjoumelq5nh0l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.testgoogleorapplelogin",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1002575927137-qim1qqa3174umc8lsdmiesrai1odlvdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDA49hvmDfa5qlkSQ7rQt6USlEhFqcPhcY"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002575927137-qim1qqa3174umc8lsdmiesrai1odlvdm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1002575927137-3loofgrekh9966qr69r6h8681kh9fks2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zirve.testgoogleapp"
+              }
+            }
+          ]
         }
       }
     },
@@ -31,7 +56,20 @@
           "package_name": "com.zirve.testgoogleapp"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1002575927137-arr2i6cqu4h02pl45ke43h3fqi29jcf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zirve.testgoogleapp",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1002575927137-qim1qqa3174umc8lsdmiesrai1odlvdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDA49hvmDfa5qlkSQ7rQt6USlEhFqcPhcY"
@@ -39,7 +77,71 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002575927137-qim1qqa3174umc8lsdmiesrai1odlvdm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1002575927137-3loofgrekh9966qr69r6h8681kh9fks2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zirve.testgoogleapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002575927137:android:b6a97783709f7b9c299720",
+        "android_client_info": {
+          "package_name": "com.zirvekuafor.testgoogleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002575927137-r3f796536osvrttfqj4glhb2gi4vsc32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zirvekuafor.testgoogleapp",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1002575927137-ssgql697hkjba8t3dtu63hifv8am51q5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zirvekuafor.testgoogleapp",
+            "certificate_hash": "bb91a61f2e0a8668b7a72d710443f5adc05aa2f3"
+          }
+        },
+        {
+          "client_id": "1002575927137-qim1qqa3174umc8lsdmiesrai1odlvdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA49hvmDfa5qlkSQ7rQt6USlEhFqcPhcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002575927137-qim1qqa3174umc8lsdmiesrai1odlvdm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1002575927137-3loofgrekh9966qr69r6h8681kh9fks2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zirve.testgoogleapp"
+              }
+            }
+          ]
         }
       }
     }
