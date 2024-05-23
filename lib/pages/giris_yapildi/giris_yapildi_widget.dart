@@ -2,25 +2,25 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
-import 'home_page_model.dart';
-export 'home_page_model.dart';
+import 'giris_yapildi_model.dart';
+export 'giris_yapildi_model.dart';
 
-class HomePageWidget extends StatefulWidget {
-  const HomePageWidget({super.key});
+class GirisYapildiWidget extends StatefulWidget {
+  const GirisYapildiWidget({super.key});
 
   @override
-  State<HomePageWidget> createState() => _HomePageWidgetState();
+  State<GirisYapildiWidget> createState() => _GirisYapildiWidgetState();
 }
 
-class _HomePageWidgetState extends State<HomePageWidget> {
-  late HomePageModel _model;
+class _GirisYapildiWidgetState extends State<GirisYapildiWidget> {
+  late GirisYapildiModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => HomePageModel());
+    _model = createModel(context, () => GirisYapildiModel());
   }
 
   @override
@@ -62,19 +62,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             children: [
               Align(
                 alignment: const AlignmentDirectional(0.0, 0.0),
-                child: Text(
-                  'GİRİŞ YAPILDI!',
-                  style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Readex Pro',
-                        letterSpacing: 0.0,
-                      ),
+                child: Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 50.0, 0.0, 0.0),
+                  child: Text(
+                    'GİRİŞ YAPILDI!',
+                    style: FlutterFlowTheme.of(context).bodyMedium.override(
+                          fontFamily: 'Readex Pro',
+                          fontSize: 30.0,
+                          letterSpacing: 0.0,
+                        ),
+                  ),
                 ),
               ),
               Padding(
                 padding: const EdgeInsetsDirectional.fromSTEB(0.0, 100.0, 0.0, 0.0),
                 child: FFButtonWidget(
-                  onPressed: () {
-                    print('Button pressed ...');
+                  onPressed: () async {
+                    context.pushNamed('Auth1');
                   },
                   text: 'GERİ DÖN',
                   options: FFButtonOptions(

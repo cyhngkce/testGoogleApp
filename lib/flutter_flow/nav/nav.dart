@@ -89,6 +89,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Auth1',
           path: '/auth1',
           builder: (context, params) => const Auth1Widget(),
+        ),
+        FFRoute(
+          name: 'girisYapildi',
+          path: '/girisYapildi',
+          builder: (context, params) => const GirisYapildiWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
